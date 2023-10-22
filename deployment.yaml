@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: 160721459527.dkr.ecr.eu-central-1.amazonaws.com/idp:1.3
+          image: 160721459527.dkr.ecr.eu-central-1.amazonaws.com/nginx:1.1
           imagePullPolicy: Always
           ports:
-            - containerPort: 8085
+            - containerPort: 8086
