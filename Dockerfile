@@ -1,4 +1,4 @@
- FROM nginx:1.10.1-alpine
+ FROM nginx
  COPY index.html /usr/share/nginx/html
  EXPOSE 8085
  CMD ["nginx", "-g", "daemon off;"]
